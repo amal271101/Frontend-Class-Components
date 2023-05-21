@@ -1,0 +1,273 @@
+.section-div {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 96%;
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.section-div.profile {
+    position: fixed !important;
+    overflow: hidden;
+}
+
+.section-title {
+    margin-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 4em;
+    color: #1d1845;
+    width: 92%;
+}
+
+.section-text{
+    font-family: 'Lato';
+    font-weight: 200;
+    font-size: 1em;
+    color: #1d1845;
+}
+
+.profile-form {
+    margin-top: 3%;
+    position: relative;
+    top: 40%;
+    margin-top: 30%;
+    position: relative;
+    left: 26%;
+}
+
+img {
+    width: 25%;
+    float: left;
+    position: relative;
+    left: 35%;
+}
+
+.section-div .input-style {
+    margin-bottom: 1.8%;
+}
+
+
+.bottom-left-part {
+    position: fixed;
+    float: left;
+    top: 60%;
+    font-family: 'Lato';
+    font-size: 1.3em;
+    color: #1d1845;
+}
+
+.bottom-right-part .profile-buttons-div button {
+    width: 100%;
+}
+
+.profile-buttons {
+    position: relative;
+    width: 100%;
+    bottom: 10%;
+    right: 55% ;
+}
+
+.bottom-left-part>div {
+    margin-bottom: 63%;
+}
+
+.section-title svg {
+    float: right;
+    margin-top: 2%;
+    fill: #7e7EB0 !important;
+}
+
+.quote {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 24px;
+}
+
+.deck-row {
+    margin: 0 -5px;
+    margin-top: 4%;
+}
+
+/* Clear floats after the columns */
+.deck-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 35vw;
+    height: 38vh;
+    padding: 0 20px;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #1D1940;
+    border-radius: 32px;
+    width: 100%;
+    height: 70%
+}
+
+.card>p {
+    font-weight: 500;
+    margin: auto;
+}
+
+.centeredDivExpandedCard {
+    width: 70%;
+    height: 80%;
+    border: none!important;
+
+}
+
+.centeredDivExpandedCard .card {
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+}
+
+.section-bottom {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+.blur {
+    
+    filter: blur(5px);
+    overflow-y: hidden !important;
+    position: fixed;
+}
+
+.blur-no-fixation{
+    filter: blur(5px);
+}
+
+.popup {
+    filter: none !important;
+    position: absolute;
+    margin-left: 25%;
+    background-color: white;
+    border: 2px solid #1D1940;
+    border-radius: 8px;
+    top: 15%;
+    width: 50%;
+    height: 40%;
+}
+
+#close-window {
+    float: right;
+    margin-right: -4.4%;
+    font-size: x-large;
+}
+
+.popup-title {
+    margin-top: 1%;
+    margin-left: 3%;
+    font-family: 'Lato';
+    font-size: 3em;
+    color: #1d1845;
+    width: 92%;
+}
+
+.popup form {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.popup form .input-style {
+    width: 20vw;
+    height: 5%;
+    border-radius: 8px;
+    margin-bottom: 6%;
+
+}
+
+.universal-button {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-right: 3%;
+    padding-left: 3%;
+    float: right;
+    width: 20%;
+    text-align: center;
+    background: #1D1940;
+    color: white;
+    border-radius: 12px;
+    margin-right: 2%;
+
+}
+
+.popup-button-div {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    right: 28%;
+}
+
+.delete-popup{
+    background-color: white;
+    border: 2px solid #1D1940;
+    border-radius: 8px;
+    top: 15%;
+    width: 22%;
+    height: 15%;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.delete-popup-button{
+    padding-bottom: 0.7%;
+    padding-top: 0.7%;
+    padding-right: 3%;
+    padding-left: 3%;
+    float: right;
+    width: 20%;
+    text-align: center;
+    background: #1D1940;
+    color: white;
+    border-radius: 5px;
+}
+
+.center{
+    position:absolute;
+    top:25%;
+    font-weight: bold;
+    font-size: 20px;
+}
+ a {
+    color: #1D1940;
+  
+  }
+  
+    svg path:hover {
+      fill: #7e7EB0;
+    /*  transition: fill 0.3s ease; /* optional transition effect */
+  
+    }

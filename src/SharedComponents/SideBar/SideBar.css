@@ -1,0 +1,24 @@
+.sidebar-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #1d1845;
+  width: 4%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+}
+.sidebar  a {
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+  svg path:hover {
+    fill: #7e7EB0;
+  }
